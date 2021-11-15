@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package graph1;
 
 /**
  *
- * @author djeq
+ * @author Kevin Setyadi
  */
 public class Main {
 
@@ -29,6 +24,10 @@ public class Main {
         graph.addEdge(2, 4);
 
         graph.displayGraph();
+
+        System.out.println("\nBFS:");
+
+        graph.bfs();
     }
 
 }
